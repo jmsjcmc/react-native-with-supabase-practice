@@ -25,7 +25,7 @@ export default function register() {
     secureTextEntry/>
 
     <AppButton title="Register" onPress={() => register(email, password)}/>
-    <Link href={'/(auth)/register'}>Already have an account?</Link>
+    <Link href={'/(auth)/login'}>Already have an account?</Link>
    </View>
   )
 }
